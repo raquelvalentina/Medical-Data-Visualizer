@@ -65,9 +65,6 @@ def draw_cat_plot():
     # Mostrar el gráfico
     plt.show()
     fig.savefig('catplot.png')
-    figure_negativeN.to_csv('hola.csv')
-    
-
     return fig
 
 
